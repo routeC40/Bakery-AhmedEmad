@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* start nav bar */
+.clr {
+    clear: both;
+}
+.header {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+}
+.header .logo img {
+    float: left;
+}
+.header .nav {
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.header .nav li {
+    display: inline-block;
+}
+
+.header .nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 0 15px;
+    font-size: 18px;
+}
+/* end nav bar */
+/* start landing */
+.landing {
+    background-image: url(../images/landing.jpg);
+    background-size: 100% 100%;
+    min-height: 100vh;
+    padding: 0 50px;
+}
+.landing .content {
+    margin: 100px 0 30px;
+    text-align: center;
+}
+.landing .content .text p:first-child {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+.landing .content .text h1 {
+    margin: 20px 0;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    font-size: 60px;
+}
+.landing .content .text p:last-child {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    line-height: 1.7;
+}
+.landing .content .btns {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 20px;
+}
+.landing .content .btns .btn_one {
+    padding: 15px 30px;
+    background-color: #8e7754;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.landing .content .btns .btn_two {
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    margin-left: 5px;
+}
+/* end landing */
+/* start who we are */
+.wwa .container {
+    padding: 50px;
+    margin: auto;
+}
+.wwa .container .image, .text {
+    display: inline-block;
+}
+.wwa .container .image {
+    width: 40%;
+}
+.wwa .container .text {
+    width: 50%;
+    margin-left: 60px;
+}
+.wwa .container .image img {
+    max-width: 100%;
+}
+.wwa .container .text h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.wwa .container .text p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #686868;
+}
+.wwa .container .text .subtitles {
+    margin-top: 15px;
+}
+.wwa .container .text .subtitles .title {
+    margin-bottom: 10px;
+}
+.wwa .container .text .subtitles .title img, p {
+    display: inline-block;
+}
+.wwa .container .text .subtitles .title img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid ;
+    color: #686868;
+
+}
+.wwa .container .text .subtitles .title p {
+    margin-left: 10px;
+    line-height: 1.7;
+    vertical-align: top;
+}
+/* end who we are */
+/* start our location */
+.location {
+    background-color: #f8f8f8;
+}
+.location .container {
+    padding: 50px;
+    margin: auto;
+}
+.location .container .def, .photo {
+    display: inline-block;
+}
+.location .container .def {
+    width: 55%;
+    vertical-align: top;
+    margin-right: 30px;
+}
+.location .container .def h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.location .container .def h1 span {
+    color: #686868;
+}
+.location .container .def p {
+    color: #686868;
+    line-height: 1.7;
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.location .container .photo {
+    width: 35%;
+}
+.location .container .photo img {
+    max-width: 100%;
+}
+/* end our location */
+/* start our baking */
+.baking .container {
+    padding: 50px;
+    margin: auto;
+}
+.baking .container .main-heading {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.baking .container .main-heading span {
+    color: #686868;
+}
+.baking .container .main-heading h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.baking .container .main-heading p {
+    color: #686868;
+    padding: 10px;
+}
+.baking .container .products {
+    padding: 30px;
+}
+.baking .container .products span {
+    color: #686868;
+}
+.baking .container .products .product {
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+    text-align: center;
+}
+.baking .container .products .product img {
+    max-width: 100%;
+}
+.baking .container .products .product h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 10px 0;
+}
+.baking .container .products .product p {
+    color: #686868;
+    line-height: 1.7;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+}
+.baking .container .clr {
+    clear: both;
+}
+/* end our baking */
+/* start contact */
+.contact {
+    background-color: #f8f8f8;
+}
+.contact .container {
+    padding: 50px;
+    margin: auto;
+}
+.contact .container .contact-location {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.contact .container .location-map iframe {
+    width: 40%;
+    float: right;
+}
+.contact .contact-location .txt h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 32px;
+}
+.contact .contact-location .txt p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+    line-height: 1.7;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.contact .contact-location .contacts {
+    margin-top: 20px;
+}
+.contact .contacts .details {
+    margin-bottom: 20px;
+}
+.contact .contacts .details img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid ;
+    color: #686868;
+}
+.contact .contacts .details p {
+    vertical-align: top;
+    padding-left: 10px;
+}
+/* end contact */
+/* start about us */
+.about-us img {
+    width: 15px;
+    height: 15px;
+}
+.about-us {
+    background-image: url(../images/footer.png);
+    background-position: right;
+    background-color: #403d38;
+    background-repeat: no-repeat;
+}
+.about-us .container {
+    padding: 50px;
+    margin: auto;
+}
+.about-us .about {
+    margin-right: 15px;
+}
+.about-us h3 {
+    color: #fff;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 15px;
+}
+.about-us .container .about, .col-one, .col-two, .col-three {
+    float: left;
+    width: 23%;
+}
+.about-us hr {
+    width: 96%;
+    margin: auto;
+    border: 1px solid #686868;
+    opacity: 0.5;
+}
+.about-us .about p {
+    color: #686868;
+    line-height: 1.7;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.about-us .arrow {
+    margin: 25px 0;
+}
+.about-us .arrow p {
+    color: #686868;
+}
+/* end about us */
+/* start social */
+.social {
+    text-align: center;
+    background-color: #353330;
+    padding: 50px;
+}
+.social p {
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.social a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+}
+/* end social */
